@@ -20,4 +20,4 @@ WORKDIR /data
 CMD ["rethinkdb", "--bind", "all"]
 
 #   process webui
-EXPOSE 28015 8080
+EXPOSE 28015
